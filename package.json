@@ -4,7 +4,6 @@
   "description": "A Magnet Uri resolver for Bower",
   "main": "index.js",
   "scripts": {
-    "clear": "rimraf dist",
     "test": "tap test/index.js"
   },
   "watch": {
