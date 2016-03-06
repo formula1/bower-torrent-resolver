@@ -1,7 +1,7 @@
 {
-  "name": "torrent-bower-resolver",
+  "name": "bower-torrent-resolver",
   "version": "0.0.0",
-  "description": "A Torrent resolver for Bower",
+  "description": "A Magnet Uri resolver for Bower",
   "main": "index.js",
   "scripts": {
     "clear": "rimraf dist",
@@ -15,7 +15,10 @@
     "url": "git+https://github.com:formula1/bower-torrent-resolver.git"
   },
   "keywords": [
-    "bower-resolver"
+    "bower-resolver",
+    "torrent",
+    "webtorrent",
+    "magneturi"
   ],
   "author": "Samuel Tobia <samtobia@gmail.com>",
   "license": "MIT",
