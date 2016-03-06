@@ -1,0 +1,35 @@
+{
+  "name": "torrent-bower-resolver",
+  "version": "0.0.0",
+  "description": "A Torrent resolver for Bower",
+  "main": "index.js",
+  "scripts": {
+    "clear": "rimraf dist",
+    "test": "tap test/index.js"
+  },
+  "watch": {
+    "test": "src/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:formula1/bower-torrent-resolver.git"
+  },
+  "keywords": [
+    "bower-resolver"
+  ],
+  "author": "Samuel Tobia <samtobia@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com:formula1/bower-torrent-resolver/issues"
+  },
+  "homepage": "https://github.com:formula1/bower-torrent-resolver#readme",
+  "dependencies": {
+    "tmp": "0.0.27",
+    "webtorrent": "^0.82.1"
+  },
+  "devDependencies": {
+    "dir-compare": "^1.0.1",
+    "rimraf": "^2.5.2",
+    "tap": "^5.7.0"
+  }
+}
