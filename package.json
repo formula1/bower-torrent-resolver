@@ -1,6 +1,6 @@
 {
   "name": "bower-torrent-resolver",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A Magnet Uri resolver for Bower",
   "main": "index.js",
   "scripts": {
@@ -10,8 +10,7 @@
     "test": "src/*.js"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com:formula1/bower-torrent-resolver.git"
+    "url": "https://github.com/formula1/bower-torrent-resolver"
   },
   "keywords": [
     "bower-resolver",

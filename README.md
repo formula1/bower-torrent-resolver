@@ -1,4 +1,4 @@
-# torrent-bower-resolver v0.1.3
+# torrent-bower-resolver v0.0.1
 A Torrent resolver for Bower
 
 # Usage:
@@ -14,7 +14,7 @@ Include `"torrent-bower-resolver"` in your .bowerrc:
 Then add a magnet uri to your in your bower.json:
 
     "dependencies": {
-        "repo": "hg+http://mysite.org/some/repo"
+        "repo": "magnet:?xt.1=urn:sha1:SOMEMAGNETURI"
     }
 
 
